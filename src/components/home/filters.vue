@@ -16,12 +16,12 @@
                 <input type="text" id="numeroDocumento" placeholder="Numero de documento">
                 <input type="text" id="numeroDesembolso" placeholder="Numero de desembolso"> 
                     <div class="fecha inputWithIcon">
-                        <div class="imageC"></div>
                         <input class="input100" type="text" id="fechaInicial" placeholder="Desde">
+                        <div class="imageC"></div>
                     </div>
                     <div class="fecha inputWithIcon">
-                        <div class="imageC"></div>
                         <input class="input100" type="text" id="fechaFinal" placeholder="Hasta">
+                        <div class="imageC"></div>
                     </div>
         </div>
     </div>
