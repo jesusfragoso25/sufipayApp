@@ -1,0 +1,107 @@
+.filtersBack{
+    background-color: #FAFAFA;
+    opacity: 1;
+    width: 100%;
+    height: 88px;
+    text-align: center;
+    display: flex;
+}
+
+.filtersBack .filters {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+    
+}
+.filtersBack .filters select {
+    appearance: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none;  
+    
+}
+
+.filtersBack .filters select,
+.filtersBack .filters input {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #413E4D;
+    text-align: left;
+    height: 56px;
+    margin: 20px;
+    border: 1px solid #ABB9C780;
+    border-radius: 6px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.filtersBack .filters input::placeholder {
+    padding: 16px;
+}
+
+
+.filtersBack .filters #documento{
+    margin-left: 72px;
+}
+
+.filtersBack .filters #numeroDocumento,
+.filtersBack .filters #numeroDesembolso {
+    width: 272px;
+}
+
+
+.filtersBack .filters #fechaInicial,
+.filtersBack .filters #fechaFinal {
+    width: 176px;
+}
+.contendTab table tbody td.monto {
+    font-weight: bold;
+    padding-left: 70px;
+}
+
+.filtersBack .filters .fecha {
+    display: flex;
+}
+
+.filtersBack .filters .fecha .imageC {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/calendardays.svg");
+    background-size: cover;
+    text-align: center;
+}
+
+.filtersBack .filters .inputWithIcon {
+    position: relative;
+}
+
+.filtersBack .filters .inputWithIcon input {
+    padding-left: 16px;
+}
+
+
+/*Animaciones */
+.filtersBack .filters input::-webkit-input-placeholder{
+    -webkit-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+  }
+
+  .filtersBack .filters input:focus::-webkit-input-placeholder,
+  .filtersBack .filters td input:valid::-webkit-input-placeholder {
+    color: #ABB9C780 !important;
+    font-size: 12px !important;
+    -webkit-transform: translateY(-15px) !important;
+    transform: translateY(-15px) !important;
+    visibility: visible !important;
+}
+
+.filtersBack .filters #placeholder::-webkit-input-placeholder{
+    -webkit-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+  }
+
+  .filtersBack .filters #placeholder::-webkit-input-placeholder,
+  .filtersBack .filters #placeholder:valid::-webkit-input-placeholder {
+    color: #ABB9C780 !important;
+    font-size: 12px !important;
+    -webkit-transform: translateY(-15px) !important;
+    transform: translateY(-15px) !important;
+    visibility: visible !important;
+}

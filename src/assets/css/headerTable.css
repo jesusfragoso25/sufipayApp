@@ -1,0 +1,23 @@
+.tableBack {
+    background-color: #F1F6FB;
+    height: 48px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.tableBack .headers {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.tableBack .headers p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #413E4D;
+    text-align: left;
+    margin: 84px;
+}

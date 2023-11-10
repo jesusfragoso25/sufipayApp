@@ -1,0 +1,72 @@
+[
+  {
+      "fechaHora": "2023-11-08 14:30:00",
+      "numero_desembolso": "0000001",
+      "tipo_documento": "DNI",
+      "numero_documento": "12345678",
+      "monto": 1000.50
+  },
+  {
+      "fechaHora": "2023-11-08 15:15:00",
+      "numero_desembolso": "0000002",
+      "tipo_documento": "Pasaporte",
+      "numero_documento": "A1234567",
+      "monto": 750.25
+  },
+  {
+      "fechaHora": "2023-11-09 10:00:00",
+      "numero_desembolso": "0000003",
+      "tipo_documento": "Carnet de Extranjería",
+      "numero_documento": "X7890123",
+      "monto": 2000.75
+  },
+  {
+      "fechaHora": "2023-11-09 11:45:00",
+      "numero_desembolso": "0000004",
+      "tipo_documento": "RUC",
+      "numero_documento": "987654321",
+      "monto": 1500.00
+  },
+  {
+      "fechaHora": "2023-11-10 09:30:00",
+      "numero_desembolso": "0000005",
+      "tipo_documento": "DNI",
+      "numero_documento": "87654321",
+      "monto": 3000.00
+  },
+  {
+      "fechaHora": "2023-11-10 12:00:00",
+      "numero_desembolso": "0000006",
+      "tipo_documento": "Pasaporte",
+      "numero_documento": "B2345678",
+      "monto": 1800.50
+  },
+  {
+      "fechaHora": "2023-12-15 12:00:00",
+      "numero_desembolso": "0000007",
+      "tipo_documento": "Cedula",
+      "numero_documento": "B2398678",
+      "monto": 1800.50
+  },
+  {
+      "fechaHora": "2022-05-20 12:00:00",
+      "numero_desembolso": "0000008",
+      "tipo_documento": "Cedula",
+      "numero_documento": "B2525678",
+      "monto": 1800.50
+  },
+  {
+      "fechaHora": "2023-11-10 12:00:00",
+      "numero_desembolso": "0000009",
+      "tipo_documento": "Cedula",
+      "numero_documento": "B2348978",
+      "monto": 1800.50
+  },
+  {
+      "fechaHora": "2023-01-01 12:00:00",
+      "numero_desembolso": "0000010",
+      "tipo_documento": "Cedula",
+      "numero_documento": "B2895678",
+      "monto": 1800.50
+  }
+]

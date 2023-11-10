@@ -1,0 +1,42 @@
+.header-desem {
+    background-color: #FFFFFF;
+    opacity: 1;
+    height: 88px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.header-desem .title p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #413E4D;
+    letter-spacing: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 72px;
+}
+
+.header-desem .download {
+    margin-left: 70%;
+}
+
+.header-desem .download button {
+    background-color:#DD3542;
+    border-radius: 24px;
+    font-size: 14px;
+    width: 176px;
+    height: 48px;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 10px 60px;
+    cursor: pointer;
+    background-image: url('../img/download.svg');
+    background-repeat: no-repeat;
+    background-position: 15% center;
+    background-size: 20px 20px;
+    color: #FFFFFF;
+}
+

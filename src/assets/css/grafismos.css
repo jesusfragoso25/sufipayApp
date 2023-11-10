@@ -1,0 +1,41 @@
+.elementos {
+    overflow-x: hidden;
+}
+
+img.imagen1 {
+    display: flex;
+    position: fixed;
+    transform: translateY(50%) translateX(-15%);
+}
+
+img.imagen2 {
+    display: flex;
+    position: fixed;
+    transform: translateY(-20%) translateX(150%);
+}
+
+img.imagen3 {
+    display: flex;
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 24%;
+}
+img.imagen4 {
+    display: flex;
+    position: absolute;
+    margin-top: 15% ;
+    margin-left: 30%;
+}
+img.imagen5 {
+    display: flex;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 34%;
+}
+
+img.imagen6 {
+    display: flex;
+    position: absolute;
+    margin-left: 69%;
+    margin-top: 30%;
+}
